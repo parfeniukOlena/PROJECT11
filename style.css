@@ -20,7 +20,7 @@
             background-color: var(--primary-color);
             color: white;
             border: none;
-            border-radius: 25px;
+            border-radius: 15px;
             padding: 15px 20px;
             cursor: pointer;
             margin: 0 auto;
@@ -28,12 +28,13 @@
 
         p {
             font-family: 'Space Grotesk', sans-serif;
+            color: var(--text-color);
 
         }
 
         .p1 {
             font-family: 'Be Vietnam Pro', sans-serif;
-            color: var(--secondary-color);
+            color: var(--text-color);
         }
 
         :root {
@@ -41,7 +42,7 @@
             --header-color: rgba(1, 45, 99, 0.8);
             --text-color: #FFFFFF;
             --nav-color: #C7C7C7;
-            --background-image:;
+            --background-image: url("./images/background.webp");
         }
 
 
@@ -96,21 +97,26 @@
             border-radius: 15px;
         }
 
-        .badge {
-            padding: 5px 10px;
+
+
+
+        .block{
+            height: 120px;
 
             margin-right: 400px;
-            height: 50px;
+
         }
 
         h1 {
             font-size: 80px;
-            background: linear-gradient(100deg, #8D4A00, #f99d4c);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            height: 250px;
+            color: var(--text-color);
+            height: 90px;
+        }
 
-
+        h2 {
+            font-size: 48px;
+            height: 80px;
+            color: var(--text-color);
         }
 
         .drops {
@@ -210,4 +216,10 @@
             margin: 0;
             background-color: var(--btn-color);
             color: black;
+        }
+
+        .hero{
+            background-image: var(--background-image);
+            width: 100%;
+
         }
