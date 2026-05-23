@@ -37,10 +37,11 @@
         }
 
         :root {
-            --primary-color: #8D4A00;
-            --secondary-color: #5A5C5C;
-            --badge-color: #FDD34D;
-            --btn-color: #FFFFFF;
+            --btn-color: #8E32C6;
+            --header-color: rgba(1, 45, 99, 0.8);
+            --text-color: #FFFFFF;
+            --nav-color: #C7C7C7;
+            --background-image:;
         }
 
 
@@ -55,7 +56,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: var(--header-color);
             backdrop-filter: blur(20px);
 
 
@@ -69,12 +70,12 @@
 
         a:first-child {
             text-decoration: none;
-            color: var(--primary-color);
+            color: var(--text-color);
 
         }
 
         a {
-            color: var(--secondary-color);
+            color: var(--nav-color);
         }
 
         header li {
@@ -113,7 +114,6 @@
         }
 
         .drops {
-            background-color: var(--btn-color);
             color: black;
             margin: 0;
         }
@@ -203,9 +203,11 @@
         }
 
         .left {
-            margin-top: 200px;
+            margin-top: 50px;
         }
 
         .explore {
             margin: 0;
+            background-color: var(--btn-color);
+            color: black;
         }
